@@ -1,4 +1,7 @@
-# Apache Superset – DuckDB Docker image
+# Apache Superset – DuckDB
+This repo presents a minimal setup to read `Parquet`, `JSON`, and `CSV` files with Apache Superset. Using an _in-memory_ DuckDB database, a live data connection is made between Superset and a filesystem.
+
+# Custom Docker image
 Execute the steps below to setup a local Apache Superset instance—with DuckDB support—using Docker.
 
 ## Build the image
