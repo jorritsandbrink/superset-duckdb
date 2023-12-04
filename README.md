@@ -27,11 +27,11 @@ Go to http://localhost:8080/login/ and login with `username=admin` and `password
 ## Check database connection
 Go to _Database Connections_ (http://localhost:8080/databaseview/list/) to validate the database connection has been created:
 
-![Overview of database connections in Superset UI](database-connection-overview.png)
+![Overview of database connections in Superset UI](docs/img/database-connection-overview.png)
 
 Click the _Edit_ button to see the connection details:
 
-<img src='duckdb-database-connection.png' alt='DuckDB database connection configuration in Superset UI' width='300'/>
+<img src='docs/img/duckdb-database-connection.png' alt='DuckDB database connection configuration in Superset UI' width='300'/>
 
 SQLAlchemy URI:
 ```
@@ -40,11 +40,11 @@ duckdb:///:memory:
 
 Click `TEST CONNECTION` and make sure you see this popup message:
 
-![Popup message indicating a good connection](connection-looks-good.png)
+![Popup message indicating a good connection](docs/img/connection-looks-good.png)
 # Querying files from Superset using DuckDB
 Go to _SQL Lab_ (http://localhost:8080/sqllab/) to query `Parquet`, `JSON`, or `CSV`, files as follows:
 
-![Apache Superset DuckDB SQL Lab](sql-lab-duckdb-parquet.png)
+![Apache Superset DuckDB SQL Lab](docs/img/sql-lab-duckdb-parquet.png)
 
 The queries use a glob syntax to read multiple files as documented on https://duckdb.org/docs/data/multiple_files/overview.html.
 
